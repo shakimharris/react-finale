@@ -28,7 +28,15 @@ const TopicDetail = () => {
   );
 };
 
-
+function App() {
+  return (
+    <div>
+      <Route exact path='/' component={HomePage} />
+      <Route exact path='/topics' component={TopicList} />
+      <Route path='/topics/:topicId' component={TopicDetail} />
+    </div>
+  )
+}
 
 
 
