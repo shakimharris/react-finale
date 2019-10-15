@@ -9,6 +9,11 @@ class ShopPage extends React.Component {
             collection: SHOP_DATA
         }
     }
+render () {
+    return (
+        <div>SHOP PAGE</div>
+    );
+ }
 }
 
 export default ShopPage;
