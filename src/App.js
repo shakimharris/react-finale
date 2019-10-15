@@ -4,7 +4,8 @@ import { Route } from 'react-router-dom';
 import './App.css';
 
 
-const HomePage = () => {
+const HomePage = (props) => {
+  console.log(props);
   return (
     <div> 
       <h1>HOME PAGE </h1> 
@@ -20,10 +21,11 @@ const TopicList = () => {
   );
 };
 
-const TopicDetail = () => {
+const TopicDetail = (props) => {
+  console.log(props);
   return (
     <div>
-      <h1>TOPIC DETAIL PAGE</h1>
+      <h1>TOPIC DETAIL PAGE </h1>
     </div>
   );
 };
