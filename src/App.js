@@ -25,7 +25,7 @@ const TopicDetail = (props) => {
   console.log(props);
   return (
     <div>
-      <h1>TOPIC DETAIL PAGE </h1>
+      <h1>TOPIC DETAIL PAGE {props.match.params.topicId} </h1>
     </div>
   );
 };
