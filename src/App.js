@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import './App.css';
 
 
@@ -8,6 +7,7 @@ const HomePage = (props) => {
   console.log(props);
   return (
     <div> 
+      <button onClick={() => props.history.push('/topics')}>Topics</button>
       <h1>HOME PAGE </h1> 
     </div>
   );
