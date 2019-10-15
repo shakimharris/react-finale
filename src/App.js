@@ -4,12 +4,32 @@ import { Route } from 'react-router-dom';
 import './App.css';
 
 
-const App = () => {
+const HomePage = () => {
   return (
     <div> 
       <h1>HOME PAGE </h1> 
     </div>
   );
-}
+};
+
+const TopicList = () => {
+  return (
+    <div>
+      <h1>TOPIC LIST</h1>
+    </div>
+  );
+};
+
+const TopicDetail = () => {
+  return (
+    <div>
+      <h1>TOPIC DETAIL PAGE</h1>
+    </div>
+  );
+};
+
+
+
+
 
 export default App;
